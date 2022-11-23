@@ -1,4 +1,4 @@
-// დავალება 1.
+// task 1.
 
 function equality(a, b){
     if (a === b){
@@ -10,7 +10,7 @@ function equality(a, b){
 console.log(equality(a, b))
 
 
-//დავალება 2.
+//task 2.
 
 function convertToCelsius(farenheit){
     if (typeof farenheit !== "number"){
@@ -22,7 +22,7 @@ function convertToCelsius(farenheit){
 console.log(convertToCelsius(farenheit))
 
 
-//დავალება 3.
+//task 3.
 
 function calculation(a, b, operator){
     if (typeof a !== "number" && typeof b !== "number" && operator !== "+" && operator !== "-" && operator !== "/" && operator !== "*"){
